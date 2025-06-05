@@ -1,0 +1,13 @@
+joke_creation_task:
+  description: >
+    Create a joke about {topic}
+  expected_output: >
+    A joke about {topic}
+  agent: joke_star
+
+joke_curation_task:
+  description: >
+    Curate a joke about {topic}
+  expected_output: >
+    A joke about {topic}
+  agent: joke_curator
